@@ -62,9 +62,7 @@ public class Clock_Face extends javax.swing.JFrame {
                     time_zone.setBackground(Color.white);
                 }
                 if((value>=13)&&(value<18))
-                {
-                    System.out.print("Evening");
-                    
+                {                    
                     clock.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/evening_80px.png")));
                     
                     background.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/Background_04.jpg")));
