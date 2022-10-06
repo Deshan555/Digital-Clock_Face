@@ -11,6 +11,7 @@ import java.awt.event.ActionListener;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import javax.swing.ImageIcon;
 import javax.swing.Timer;
 
 /**
@@ -21,8 +22,11 @@ public class Clock_Face extends javax.swing.JFrame {
 
     Integer value;
     
-    public Clock_Face() {
+    public Clock_Face() 
+    {
         initComponents();
+        
+        setIconImage(new ImageIcon(getClass().getResource("/Img/clock_80px.png")).getImage());
         
         Timer timer;
         
